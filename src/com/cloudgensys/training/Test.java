@@ -35,7 +35,7 @@ public class Test {
 		    Matcher matcher2 = contactpattern.matcher(totalString.toString());
 		    if(matcher2.find())
 		    System.out.println("Contact:"+matcher2.group(1));
-		    else System.out.println("contact number is in incorrect format than required");
+		    else System.out.println("contact number is in incorrect format");
 		}
 		catch(Exception e)
 		{
